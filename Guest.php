@@ -7,6 +7,11 @@
     <script src="assets/js/MyJS.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
     <style>
+        td {
+            background-color: #415a77;
+            color: white;
+            font-weight: 600;
+        }
     </style>
 </head>
 

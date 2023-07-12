@@ -5,6 +5,13 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <script src="assets/js/MyJS.js" type="text/javascript"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
+<style>
+    .thead-custom {
+        background-color: #415a77;
+        color: white;
+        font-weight: 600;
+    }
+    </style>
 <?php
 // Start the session
 session_start();
@@ -19,7 +26,7 @@ session_start();
         include_once 'CRUD_Insert.php';
         ?>
         <table class="table" id="example">
-            <thead>
+            <thead class="thead-custom">
                 <td>ID</td>
                 <td>Imię</td>
                 <td>Nazwisko</td>
