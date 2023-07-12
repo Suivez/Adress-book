@@ -3,8 +3,8 @@
     
         if(isset($_POST["IDSubmit"]))
         {
-            $username = strtoupper($_POST["usernametbx"]);
-            $password = strtoupper($_POST["passwordtbx"]); 
+            $username = $_POST["usernametbx"];
+            $password = $_POST["passwordtbx"]; 
             $DBConnection = new DBConnection;          
             $command = mysqli_query($DBConnection->getdbconnection(), "Select * from account_table where IDUsername='".$username."' AND IDPassword='".$password."'");              
             $row = mysqli_fetch_array($command);
