@@ -19,7 +19,10 @@
     <div id="SelectedRow" class="text-white"></div>
     <div class="container-fluid" style="margin-top:100px">
         <center>
-        <h2>Lista kontaktów</h2>
+        <div>
+            <h2>Lista kontaktów</h2>
+            <a href="index.php">Panel logowania</a>
+        </div>
             <div class="w-75">
                 <table class="table" id="example">
                     <thead>

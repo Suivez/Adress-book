@@ -1,4 +1,7 @@
-<h2>Lista kontaktów</h2>
+<div>
+    <h2>Lista kontaktów</h2>
+    <a href="index.php">Wyloguj</a>
+</div>
 <form method="POST">
     <h4 style="float: left">Dodaj nowy kontakt</h4>
 <table class="table">
