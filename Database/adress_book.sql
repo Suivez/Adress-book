@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Lip 12, 2023 at 12:43 PM
+-- Generation Time: Lip 12, 2023 at 03:02 PM
 -- Wersja serwera: 10.4.28-MariaDB
 -- Wersja PHP: 8.2.4
 
@@ -62,16 +62,13 @@ CREATE TABLE `bank_table` (
 --
 
 INSERT INTO `bank_table` (`ID`, `First_name`, `Last_name`, `Email`, `Phone`, `Location`, `Room`) VALUES
-(17, 'asd', '', 'asd', 'asd', 'asd', 'asd'),
-(18, 'asd', '', 'asd', 'asd', 'asd', 'asd'),
-(20, 'try', 'u', 'tu', 'tyu', 'tyu', 'tyu'),
-(21, 'xyz', 'xyz', 'xyz@asd.com', '4234', 'xyz', '123a'),
-(22, 'sad', 'sd', '213', '435r', 'dsf', 're'),
-(23, '123', 'ter', 'tergtr', 'tre', 'ter', 'reter'),
-(24, '123', 'ter', 'tergtr', 'tre', 'ter', 'reter'),
-(25, 'jh', 'fhg', 'wer', 'trh', 'gr', 'cx'),
-(26, 'gh', 'fg', 'h', 'h', 'ggh', 'j'),
-(27, 'ef', '34', 'd', '3', 'fe', '4');
+(17, 'Jan', 'Kowalski', 'kowalski@gmail.com', '123456789', 'Kraków', '123'),
+(18, 'Marek', 'Cukierberg', 'Cukierberk@fb.com', '987654321', 'Facebook', '7'),
+(20, 'Walter', 'White', 'white@meta.us', 'better call Saul', 'Albuquerque', '312'),
+(21, 'Saul', 'Goodman', 'saul@goodman', '423456733', 'Albuquerque', '3'),
+(22, 'Marek', 'Mostowiak', 'most@gmail.com', '504354354', 'Warszawa', '19'),
+(23, 'Steve ', 'Jobs', 'Jobs@apple.com', '123456789', 'California', '$$$$'),
+(24, 'Hanka', 'Mostowiak', 'hanmost@gmai.com', '123874678', 'Kartony', '201');
 
 --
 -- Indeksy dla zrzutów tabel
