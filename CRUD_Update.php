@@ -21,6 +21,8 @@
                     <div><input class="form-control" id="update_locationbx" name="update_locationbx" required></div>
                     <div>Pokój</div>
                     <div><input class="form-control" id="update_roombx" name="update_roombx" required></div>
+                    <div>Stanowisko</div>
+                    <div><input class="form-control" id="update_jobbx" name="update_jobbx" required></div>
                 </div>
                 <div class="modal-footer">
                     <button onclick="hideModal('Update_bank_table')" class="btn btn-danger w-25">Anuluj</button>
@@ -42,6 +44,7 @@ if (isset($_POST["updatebtn"])) {
     . "', Phone ='" .$_POST["update_phonebx"]
     . "', Location ='" .$_POST["update_locationbx"]
     . "', Room ='" .$_POST["update_roombx"]
+    . "', Job ='" .$_POST["update_jobbx"]
     . "' WHERE ID ='" . $_POST["update_ID"] . "'");
     echo '<script>window.location.href="";</script>';
 }

@@ -26,13 +26,13 @@ session_start();
         ?>
         <table class="table" id="example">
             <thead class="thead-custom">
-                <td>ID</td>
                 <td>Imię</td>
                 <td>Nazwisko</td>
                 <td>E-mail</td>
                 <td>Telefon</td>
                 <td>Lokalizacja</td>
                 <td>Pokój</td>
+                <td>Stanowisko</td>
                 <td>Edytuj/Usuń</td>
             </thead>
             <tbody>

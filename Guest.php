@@ -26,13 +26,13 @@
             <div class="w-75">
                 <table class="table" id="example">
                     <thead>
-                        <td>ID</td>
                         <td>Imię</td>
                         <td>Nazwisko</td>
                         <td>E-mail</td>
                         <td>Telefon</td>
                         <td>Lokalizacja</td>
                         <td>Pokój</td>
+                        <td>Stanowisko</td>
                     </thead>
                     <tbody>
                         <?php

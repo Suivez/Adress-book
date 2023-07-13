@@ -30,6 +30,10 @@
             <div>Pokój</div>
             <div><input name="roombx" class="form-control" required></div>
         </td>
+        <td>
+            <div>Stanowisko</div>
+            <div><input name="jobbx" class="form-control" required></div>
+        </td>
         <td class="align-bottom">
             <input type="Submit" name="addbtn" class="btn btn-success" value="Dodaj">
         </td>
@@ -40,13 +44,14 @@
     if(isset($_POST["addbtn"])){
         include_once 'MyFrameworks/DBQuery.php';
         $DBQuery = new DBQuery;
-        $DBQuery->IUD("Insert INTO bank_table (First_name, Last_name, Email, Phone, Location, Room) VALUES ('"
+        $DBQuery->IUD("Insert INTO bank_table (First_name, Last_name, Email, Phone, Location, Room, Job) VALUES ('"
         .$_POST["first_namebx"]."','"
         .$_POST["last_namebx"]."','"
         .$_POST["emailbx"]."','"
         .$_POST["phonebx"]."','"
         .$_POST["locationbx"]."','"
-        .$_POST["roombx"]."') "
+        .$_POST["roombx"]."','"
+        .$_POST["jobbx"]."') "
         );
     }
 ?>

@@ -14,7 +14,7 @@
                     </div>
                     <div class="p-1">
                         <div>Hasło</div>
-                        <div><input name="passwordbx" required class="form-control"></div>
+                        <div><input type="password" name="passwordbx" required class="form-control"></div>
                     </div>
                     <div class="p-1">
                         <div class="d-flex">
