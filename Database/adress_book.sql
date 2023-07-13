@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Lip 12, 2023 at 03:02 PM
+-- Generation Time: Lip 13, 2023 at 09:10 AM
 -- Wersja serwera: 10.4.28-MariaDB
 -- Wersja PHP: 8.2.4
 
@@ -39,7 +39,7 @@ CREATE TABLE `account_table` (
 --
 
 INSERT INTO `account_table` (`IDNum`, `IDName`, `IDUsername`, `IDPassword`) VALUES
-(3, 'ADMINISTATOR', 'admin', 'admin');
+(7, 'admin', 'admin', '$2y$10$ZsPH6EU9jO3lagAiaXjQxelN5MYNaPMnRBRe943lqIRq7BLKaqt2m');
 
 -- --------------------------------------------------------
 
@@ -67,8 +67,8 @@ INSERT INTO `bank_table` (`ID`, `First_name`, `Last_name`, `Email`, `Phone`, `Lo
 (20, 'Walter', 'White', 'white@meta.us', 'better call Saul', 'Albuquerque', '312'),
 (21, 'Saul', 'Goodman', 'saul@goodman', '423456733', 'Albuquerque', '3'),
 (22, 'Marek', 'Mostowiak', 'most@gmail.com', '504354354', 'Warszawa', '19'),
-(23, 'Steve ', 'Jobs', 'Jobs@apple.com', '123456789', 'California', '$$$$'),
-(24, 'Hanka', 'Mostowiak', 'hanmost@gmai.com', '123874678', 'Kartony', '201');
+(23, 'Steve ', 'Jobs', 'Jobs@apple.com', '123456789', 'California', '$$$'),
+(24, 'Hanka', 'Mostowiak', 'hanmost@gmail.com', '123874678', 'Kartony', '201');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -94,7 +94,7 @@ ALTER TABLE `bank_table`
 -- AUTO_INCREMENT for table `account_table`
 --
 ALTER TABLE `account_table`
-  MODIFY `IDNum` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `IDNum` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `bank_table`
