@@ -32,7 +32,7 @@
                         <td>Telefon</td>
                         <td>Lokalizacja</td>
                         <td>Pokój</td>
-                        <td>Stanowisko</td>
+                        <td>Wydział</td>
                     </thead>
                     <tbody>
                         <?php

@@ -21,7 +21,7 @@
                     <div><input class="form-control" id="update_locationbx" name="update_locationbx" required></div>
                     <div>Pokój</div>
                     <div><input class="form-control" id="update_roombx" name="update_roombx" required></div>
-                    <div>Stanowisko</div>
+                    <div>Wydział</div>
                     <div><input class="form-control" id="update_jobbx" name="update_jobbx" required></div>
                 </div>
                 <div class="modal-footer">

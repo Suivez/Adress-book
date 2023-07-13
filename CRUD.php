@@ -32,7 +32,7 @@ session_start();
                 <td>Telefon</td>
                 <td>Lokalizacja</td>
                 <td>Pokój</td>
-                <td>Stanowisko</td>
+                <td>Wydział</td>
                 <td>Edytuj/Usuń</td>
             </thead>
             <tbody>
