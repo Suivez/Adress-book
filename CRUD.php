@@ -17,8 +17,7 @@
 session_start();
 ?>
 </head>
-<body>    
-    
+<body>
     <div class="container-fluid" style="margin-top:100px">
         <center>
         <div class="w-75">
@@ -45,6 +44,10 @@ session_start();
             </tbody>
         </table>
         </div>
+        <br>
+        <?php
+            include_once 'Register.php';
+        ?>
         </center>
     </div>  
     </div>

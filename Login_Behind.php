@@ -4,11 +4,11 @@
         if(isset($_POST["IDSubmit"]))
         {
             $username = $_POST["usernametbx"];
-            $password = $_POST["passwordtbx"]; 
+            $password = $_POST["passwordtbx"];
             $DBConnection = new DBConnection;          
-            $command = mysqli_query($DBConnection->getdbconnection(), "Select * from account_table where IDUsername='".$username."' AND IDPassword='".$password."'");              
+            $command = mysqli_query($DBConnection->getdbconnection(), "Select * from account_table where IDUsername='".$username."'");              
             $row = mysqli_fetch_array($command);
-            if ($username == $row["IDUsername"] && $password  == $row["IDPassword"])
+            if ($username == $row["IDUsername"] && password_verify($password, $row["IDPassword"]))
             {
                 session_start();
                 $_SESSION["Account-Login"]='';
