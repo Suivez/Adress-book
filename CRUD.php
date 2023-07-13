@@ -11,6 +11,20 @@
         color: white;
         font-weight: 600;
     }
+
+    body {
+        font-family: 'Arial';   
+    }
+        
+    th {
+        font-size: 0.8rem;
+    }
+
+    .custom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     </style>
 <?php
 // Start the session
@@ -58,7 +72,10 @@ session_start();
 
 <script>
     new DataTable('#example', {
-        paging: false
+        paging: false,
+        "language": {
+            "search": "Szukaj"
+        }
     });
 
 </script>

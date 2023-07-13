@@ -1,15 +1,15 @@
 <tr>
-    <th><?php echo $row["First_name"]?></th>
-    <th><?php echo $row["Last_name"]?></th>
-    <th><?php echo $row["Email"]?></th>
+    <th nowrap="nowrap"><?php echo $row["First_name"]?></th>
+    <th nowrap="nowrap"><?php echo $row["Last_name"]?></th>
+    <th nowrap="nowrap"><?php echo $row["Email"]?></th>
     <th><?php echo $row["Phone"]?></th>
-    <th><?php echo $row["Location"]?></th>
+    <th nowrap="nowrap"><?php echo $row["Location"]?></th>
     <th><?php echo $row["Room"]?></th>
     <th><?php echo $row["Job"]?></th>
-    <th>
+    <th nowrap="nowrap">
         <button class="btn btn-primary " onclick="Gridview_bank_table_Update('<?php echo $row['ID']?>','<?php echo $row['First_name']?>','<?php echo $row['Last_name']?>','<?php echo $row['Email']?>','<?php echo $row['Phone']?>','<?php echo $row['Location']?>','<?php echo $row['Room']?>','<?php echo $row['Job'] ?>','Update_bank_table')">Edytuj</button>
         <button class="btn btn-danger " onclick="Gridview_bank_table_Delete('<?php echo $row['ID']?>','Delete_bank_table')">Usuń</button>
-    </th> 
+    </th>
 </tr>
 
 <script>
